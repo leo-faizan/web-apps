@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animated nav_bar</title>
+    <link rel="icon" href="./photos/Group 2.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>X APERTURE</h1>
+            <ul>
+                <li><a data-page="home" href="">Home</a></li>
+                <li><a data-page="pictures" href="">Pictures</a></li>
+                <li><a data-page="about" href="">About</a></li>
+                <div class="bubble"></div>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section data-index="0" class="home">
+            <img src="./photos/new.svg" alt="" width="200">
+        </section>
+        <section data-index="1" class="pictures">
+            <div class="photos">
+                <div class="gallery">
+                        <img src="./photos/egmore.jpg" alt="">
+                        <img src="./photos/galada.jpg" alt="">
+                        <img src="./photos/marshy.jpg" alt="">
+                        <img src="./photos/night.jpg" alt="">
+                        <img src="./photos/pattabiram.jpg" alt="">
+                        <img src="./photos/pbt.jpg" alt="">
+                        <img src="./photos/stadium.jpg" alt="">
+                        <img src="./photos/theo ground.jpg" alt="">
+                        <img src="./photos/train.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section data-index="2" class="about">
+            <h2>About</h2>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
